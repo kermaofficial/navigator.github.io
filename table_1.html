@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Practise</title>
+    <style>
+        html,body{
+            margin: 0;
+        }
+        h1.main{
+            
+            background-color: cadetblue;
+            padding: 5px;
+        }
+        ul.main {
+            list-style-type: none;
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #f1f1f1;
+            height: 100%; /* Full height */
+            position: fixed; /* Make it stick, even on scroll */
+            overflow: auto; /* Enable scrolling if the sidenav has too much content */
+            text-align: center;
+    } 
+        li.main a{
+            text-decoration: none;
+            color: #000;
+            display: block;
+            padding: 5px;
+            
+        }
+        a.main:hover{
+            background-color: cadetblue;
+            color: white;
+        }
+        div.main{
+            margin-left:15%;padding:1px 16px;height:auto;
+            margin-top: 0;
+        }
+
+
+        h1{
+            font-family:  'Tangerine', serif;
+            text-align: center;
+            font-size: 4em;
+            text-shadow: 5px 2px 4px rgb(44, 174, 255); 
+        }
+        a{
+            text-decoration:none;
+            color: inherit;
+            
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        table,th,tr,td{
+            border: 3px solid rgb(50, 50, 51);
+            border-collapse: collapse;
+        }
+        td{
+            padding: 15px;
+            color: rgb(0, 157, 255);
+            font-weight: 200px;
+            letter-spacing: 1.5px;
+        }
+        th{
+            background-color: lightgray;
+            padding: 5px 15px 5px 15px ;
+        }
+        #yes:hover{
+            
+            background-color: rgb(253, 239, 241);
+        }
+        tr:hover{
+            
+            background-color: rgb(252, 252, 230);
+        }
+        .active {
+  background-color: cadetblue;
+  color: white;
+}
+        
+    </style>
+</head>
+<body>
+    <nav class="main">
+        <ul class="main" >
+    <h1 class="main" ><a  class="main" href="index.html">navigat.or</a></h1>
+            <li class="main" ><a  class="main" href="contactMe.html" target="_blank">contactME</a></li>
+            <li class="main">  <a  class="main" href="kreations.html" target="_blank" >Kreations</a></li>
+            <li class="main" > <a  class="main" href="myfirstwebpage.html" target="_blank" >myfirstWebpage</a></li>
+            <li class="main" ><a  class="main" href="shapes.html" target="_blank" >Shapes</a></li>
+            <li class="main" ><a  class="main active" href="table_1.html" target="_blank" >Item</a></li>
+            <li  class="main" ><a  class="main" href="whatissuccess.html" target="_blank" >whatisSuccess</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="main">
+        <h1>
+        Table
+    </h1>
+    <div>
+        <table>
+            <th>Name</th>
+            <th>Class</th>  
+            <th>Roll no.</th>  
+            <th>Stream</th>  
+            <th>Item</th> 
+            <tr id="yes">
+                <td>Muskan</td>
+                <td>12</td>
+                <td>13</td>
+                <td>PCM</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Preeti</td>
+                <td>12</td>
+                <td>03</td>
+                <td>PCM</td>
+                <td>No</td>
+            </tr>
+            <tr id="yes">
+                <td><a target="_blank" href="https://dl3.pushbulletusercontent.com/59D03YNWvTLmfO7PMWQp5RvZEJWCrimH/Screenshot_20210620-065652_WhatsApp.jpg">Anushka</a>
+                <td>11</td>
+                <td>02</td>
+                <td>PCB</td>
+                <td>Yes</td>
+            </tr>
+            <tr id="yes">
+                <td>Anchal</td>
+                <td>12</td>
+                <td>07</td>
+                <td>PCM</td>
+                <td>Yes</td>
+            </tr>
+            <tr id="yes">
+                <td>Bhoomi</td>
+                <td>09</td>
+                <td>15</td>
+                <td>PCM</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+</html>
